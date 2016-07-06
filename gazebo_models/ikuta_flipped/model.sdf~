@@ -1,0 +1,19 @@
+<?xml version='1.0'?>
+<sdf version='1.4'>
+  <model name="ikuta_map">
+  <static>true</static>
+  <link name="body">
+ 	<pose>0 0 -10.0 0 0 0</pose>
+	<collision name='collision'>
+         <geometry>
+          <mesh><uri>model://ikuta/meshes/D_kan.dae</uri></mesh>
+         </geometry>
+	</collision>
+        <visual name='visual'>
+         <geometry>
+          <mesh><uri>model://ikuta/meshes/D_kan.dae</uri></mesh>
+         </geometry>
+        </visual>
+	</link>
+  </model>
+</sdf>
